@@ -1,0 +1,9 @@
+name = "pacha-london-import"
+account_id = "32a132f7ca0347a3572bb6e890f6aaa7"
+compatibility_date = "2025-09-01"
+main = "scripts/import-products.worker.ts"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pacha-london-db"
+database_id = "c68f6bc8-75ac-48a4-ac17-1ef281229d15"

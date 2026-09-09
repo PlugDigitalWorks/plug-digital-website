@@ -1,0 +1,30 @@
+name = "pacha-london"
+compatibility_date = "2025-09-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[vars]
+BASE_URL = "https://pachalondon-website.pages.dev"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pacha-london-db"
+database_id = "c68f6bc8-75ac-48a4-ac17-1ef281229d15"
+
+[env.production.vars]
+NODE_ENV = "production"
+BASE_URL = "https://pachaoflondon.com"
+
+[[env.production.d1_databases]]
+binding = "DB"
+database_name = "pacha-london-db"
+database_id = "c68f6bc8-75ac-48a4-ac17-1ef281229d15"
+
+[env.preview.vars]
+NODE_ENV = "preview"
+BASE_URL = "https://pachalondon-website.pages.dev"
+
+[[env.preview.d1_databases]]
+binding = "DB"
+database_name = "pacha-london-db"
+database_id = "c68f6bc8-75ac-48a4-ac17-1ef281229d15"
