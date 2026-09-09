@@ -17,7 +17,7 @@ interface Category {
 
 const socials = [
   /* { icon: '/icons/socials/x.svg', href: '#' }, */
-  { icon: '/icons/socials/facebook.svg', href: 'https://www.facebook.com/p/Pacha-Of-London-Jewellers-100063565797015/' },
+  { icon: '/icons/socials/facebook.svg', href: 'https://www.facebook.com/p/plug-digital-website-Jewellers-100063565797015/' },
   /* { icon: '/icons/socials/youtube.svg', href: '' }, */
   { icon: '/icons/socials/instagram.svg', href: 'https://www.instagram.com/pacha_of_london_jewellers/' },
 ];

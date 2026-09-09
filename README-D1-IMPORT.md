@@ -227,7 +227,7 @@ npm run export-to-wordpress-json
 Öncesinde istersen farklı bir terminalde loglamak için
 
 ```bash
-npx wrangler tail pacha-london-import --format pretty
+npx wrangler tail plug-digital-import --format pretty
 ```
 
 ```bash

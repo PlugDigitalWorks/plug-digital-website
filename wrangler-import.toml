@@ -1,5 +1,5 @@
-name = "pacha-london-import"
-account_id = "32a132f7ca0347a3572bb6e890f6aaa7"
+name = "plug-digital-import"
+account_id = "4a7b555c733231ff62dc4a25c9a18209"
 compatibility_date = "2025-09-01"
 main = "scripts/import-products.worker.ts"
 

@@ -86,7 +86,7 @@ async function uploadImageToCloudinary(
   const hash = hashUrl(url);
   // public_id sadece hash olmalı, folder ayrı parametre olarak gönderilecek
   const publicId = hash;
-  const folder = "pacha-london/products";
+  const folder = "plug-digital/products";
 
   // Check if already exists (Cloudinary Admin API)
   // Cloudinary Admin API: GET /resources/image/upload/{folder}/{public_id}

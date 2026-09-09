@@ -107,7 +107,7 @@ export default function WatchDetail({
                   </ul>
                 </div>
                 <Image
-                  src="/pacha-of-london.png"
+                  src="/plug-digital-website.png"
                   alt="Guarantee"
                   width={120}
                   height={120}

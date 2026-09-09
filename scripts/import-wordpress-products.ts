@@ -71,7 +71,7 @@ async function downloadImage(
 
 async function uploadImageToCloudinary(url: string): Promise<string> {
   const hash = hashUrl(url);
-  const publicId = `pacha-london/products/${hash}`;
+  const publicId = `plug-digital/products/${hash}`;
 
   // 🔍 Eğer daha önce upload edildiyse tekrar upload etme
   try {
