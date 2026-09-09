@@ -5,5 +5,5 @@ main = "scripts/import-products.worker.ts"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "pacha-london-db"
-database_id = "c68f6bc8-75ac-48a4-ac17-1ef281229d15"
+database_name = "plug-digital-db"
+database_id = "03952470-a406-4b93-b3e5-4f98b2df9817"

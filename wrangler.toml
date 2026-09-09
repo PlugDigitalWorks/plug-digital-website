@@ -4,27 +4,27 @@ compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
 
 [vars]
-BASE_URL = "https://pachalondon-website.pages.dev"
+BASE_URL = "plug-digital-website.plugdigital.workers.dev"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "pacha-london-db"
-database_id = "c68f6bc8-75ac-48a4-ac17-1ef281229d15"
+database_name = "plug-digital-db"
+database_id = "03952470-a406-4b93-b3e5-4f98b2df9817"
 
 [env.production.vars]
 NODE_ENV = "production"
-BASE_URL = "https://pachaoflondon.com"
+BASE_URL = "https://plugdigital.co.uk"
 
 [[env.production.d1_databases]]
 binding = "DB"
-database_name = "pacha-london-db"
-database_id = "c68f6bc8-75ac-48a4-ac17-1ef281229d15"
+database_name = "plug-digital-db"
+database_id = "03952470-a406-4b93-b3e5-4f98b2df9817"
 
 [env.preview.vars]
 NODE_ENV = "preview"
-BASE_URL = "https://pachalondon-website.pages.dev"
+BASE_URL = "plug-digital-website.plugdigital.workers.dev"
 
 [[env.preview.d1_databases]]
 binding = "DB"
-database_name = "pacha-london-db"
-database_id = "c68f6bc8-75ac-48a4-ac17-1ef281229d15"
+database_name = "plug-digital-db"
+database_id = "03952470-a406-4b93-b3e5-4f98b2df9817"
